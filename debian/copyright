@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: genetlink
+Upstream-Contact: Matt Layher
+Source: https://github.com/mdlayher/genetlink
+
+Files: *
+Copyright: 2017 Matt Layher
+License: Expat
+
+Files: debian/*
+Copyright: 2020 Nick Aquina <nickaquina@gmail.com>
+License: Expat
+Comment: Debian packaging is licensed under the same terms as upstream
+
+License: Expat
+ TODO
