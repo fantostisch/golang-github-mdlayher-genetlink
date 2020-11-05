@@ -9,7 +9,8 @@ Build-Depends: debhelper-compat (= 13),
                golang-any,
                golang-github-google-go-cmp-dev,
                golang-golang-x-net-dev,
-               golang-golang-x-sys-dev
+               golang-golang-x-sys-dev,
+               golang-github-mdlayher-netlink-dev
 Standards-Version: 4.5.0
 Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-mdlayher-genetlink
 Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-mdlayher-genetlink.git
@@ -22,6 +23,7 @@ Architecture: all
 Depends: golang-github-google-go-cmp-dev,
          golang-golang-x-net-dev,
          golang-golang-x-sys-dev,
+         golang-github-mdlayher-netlink-dev,
          ${misc:Depends}
 Description: Package genetlink implements generic netlink interactions and data types. MIT Licensed. (library)
  genetlink builds.sr.ht status
